@@ -5,16 +5,16 @@
 This project is the final project of the Jedha Bootcamp training. It is led by three people.
 
 ## Content
-**da : data analysis**
-**ds : data science**
-**prod : ML production**
-**.dvc & .dvcignore : data version control**
-**.gitignore : version control**
+**da : data analysis** \
+**ds : data science** \
+**prod : ML production** \
+**.dvc & .dvcignore : data version control** \
+**.gitignore : version control** \
 **requirements.txt : venv**
 
 ## Workflow
-> analyzing two-wheeler accidents
-> real-time prevention by identifying high-risk areas
+> analyzing two-wheeler accidents \
+> real-time prevention by identifying high-risk areas \
 > predicting future accidents
 
 ## Run project
