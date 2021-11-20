@@ -1,2 +1,7 @@
 env/
 ds/data
+
+*/.ipynb_checkpoints
+*/*/.ipynb_checkpoints
+
+*/*/iframe_figures
