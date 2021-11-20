@@ -7,6 +7,7 @@ This project is the final project of the Jedha Bootcamp training. It is led by t
 ## Content
 `da` : data analysis \
 `ds` : data science \
+`doc` : articles & stackoverflow \
 `prod` : ML production \
 `.dvc & .dvcignore` : data version control \
 `.gitignore` : version control \

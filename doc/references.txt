@@ -1,3 +1,5 @@
 # scipy convexhull
 link : https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html
 
+# deploy ml models
+link : https://mlinproduction.com/deploying-machine-learning-models/
