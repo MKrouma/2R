@@ -1,0 +1,11 @@
+# ACADEMIC
+link : https://www.tandfonline.com/doi/full/10.1080/23311916.2020.1834659
+
+
+# DATA VISUALIZATION
+link : https://omdena.com/blog/advanced-eda/
+link : https://medium.com/@rawanme/u-k-traffic-accidents-data-analysis-10-years-c81293180ee5
+link : https://www.kaggle.com/makdvd/us-traffic-fatality-exploratory-data-analysis
+link : https://towardsdatascience.com/car-crashes-and-the-weather-an-exploratory-analysis-of-environmental-conditions-impact-on-traffic-12bcb7f9afed
+
+

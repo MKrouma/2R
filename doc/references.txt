@@ -1,0 +1,3 @@
+# scipy convexhull
+link : https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html
+

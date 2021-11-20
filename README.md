@@ -5,17 +5,19 @@
 This project is the final project of the Jedha Bootcamp training. It is led by three people.
 
 ## Content
-**da : data analysis** \
-**ds : data science** \
-**prod : ML production** \
-**.dvc & .dvcignore : data version control** \
-**.gitignore : version control** \
-**requirements.txt : venv**
+`da` : data analysis \
+`ds` : data science \
+`prod` : ML production \
+`.dvc & .dvcignore` : data version control \
+`.gitignore` : version control \
+`requirements.txt` : venv
 
 ## Workflow
-> analyzing two-wheeler accidents \
-> real-time prevention by identifying high-risk areas \
-> predicting future accidents
+![Framework](./doc/images/framework.jpeg)
+* Data acquisition : source webpage, scrapping; 
+* Data analysis : preprocessing & data visualization; 
+* Data science : train, test and log models & metrics; 
+* Production : model in production, API & website.
 
 ## Run project
 ### Github 
