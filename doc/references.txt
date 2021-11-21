@@ -3,3 +3,12 @@ link : https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.Convex
 
 # deploy ml models
 link : https://mlinproduction.com/deploying-machine-learning-models/
+
+# dashboard 3D 
+link : https://search.muz.li/ZDkzMzRiZjgz
+
+# bicylce crash
+link : https://dribbble.com/shots/14365239-Dunked
+
+# sigma design template 
+link : https://www.figma.com/file/92Ri5gqxAGOBVaX2YX3c3Y/Build-it-in-Figma%3A-Design-Systems-%E2%80%94%C2%A0Components-Continued...-(Community)?node-id=10%3A0

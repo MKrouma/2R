@@ -53,6 +53,11 @@ You have to :
 > github actions will be checked code only for production.
 
 
+## Production 
+- App : prototype, design website(application, dashboard, story)
+- Model : refactor, train, test, deploy, predict
+![Webapp tree](./doc/images/webapp-tree.png)
+
 
 
  
