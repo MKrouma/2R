@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cluster_index": -1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 2.334863, 48.827466 ], [ 2.32531, 48.831638 ], [ 2.313754, 48.838638 ], [ 2.321641, 48.837161 ], [ 2.32763, 48.836021 ], [ 2.327635, 48.836019 ], [ 2.331516, 48.833224 ], [ 2.334863, 48.827466 ] ] ] } }
+]
+}
