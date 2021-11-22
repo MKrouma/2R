@@ -130,7 +130,7 @@ def stack_cluster(cluster_gdf, cluster_idx) :
 
         if cluster_group_gdf.shape[0] > 10 :
             # new cluster
-            df_cluster = pd.DataFrame([-1], columns=["cluster_index"])
+            df_cluster = pd.DataFrame([cluster_idx], columns=["cluster_index"])
 
             # create polygons from list of point 
             list_geometry = cluster_group_gdf["geometry"].to_list()
@@ -142,12 +142,17 @@ def stack_cluster(cluster_gdf, cluster_idx) :
             # covert to gdf
             df_cluster["geometry"] = cluster_cover
             cluster_cover_gdf = gpd.GeoDataFrame(df_cluster, geometry=df_cluster["geometry"], crs="epsg:4326")
-            display(cluster_cover_gdf)
+            #display(cluster_cover_gdf)
 
             # add
             cluster_gdf_list.append(cluster_cover_gdf)
 
     # merge geodataframe
+    clusters_all_gdf = pd.concat(cluster_gdf_list, axis=0)
+    clusters_all_gdf = clusters_all_gdf.reset_index(drop=True)
+    print(clusters_all_gdf)
+
+    clusters_all_gdf[:20].to_file("./cluster_polygons.geojson")
 
 if __name__ == "__main__" :
     # load dataset
