@@ -11,3 +11,14 @@ link : https://towardsdatascience.com/car-crashes-and-the-weather-an-exploratory
 
 # DBSCAN TUNING
 link : https://stats.stackexchange.com/questions/88872/a-routine-to-choose-eps-and-minpts-for-dbscan
+
+# UK ACCIDENTS
+link : https://github.com/joaofig/uk-accidents/blob/master/ShowHotSpots.py
+
+# DBSCAN HYPERPARAM
+link : https://geoffboeing.com/2014/08/clustering-to-reduce-spatial-data-set-size/
+link : https://github.com/gboeing/data-visualization/blob/main/location-history/visualize-location-history.ipynb
+
+# ML IN PRODUCTION
+link : https://mlinproduction.com/software-interfaces-for-machine-learning-deployment-deployment-series-02/
+
