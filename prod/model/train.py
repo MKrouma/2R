@@ -9,6 +9,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely import geometry
 from sklearn import metrics
+import matplotlib.pyplot as plt
 from sklearn.cluster import DBSCAN
 from IPython.display import display
 from sklearn.model_selection import train_test_split
@@ -78,9 +79,7 @@ def train_model(X_train:pd.DataFrame, hyperparam:dict, model_name:str = "DBSCAN"
         labels = db.labels_
         indices_clusters = db.core_sample_indices_
 
-        display(labels.shape)
-        display(db.components_.shape)
-        print(f"Number of clusters created : {set(labels)}")
+        print(f"Number of clusters created : {len(set(labels))}")
 
         # fill clusters in 
         X_train["cluster"] = db.labels_
@@ -91,7 +90,7 @@ def train_model(X_train:pd.DataFrame, hyperparam:dict, model_name:str = "DBSCAN"
 
         # save model
         model_name = "./model.joblib"
-        if not os.path.exists(model_name) : 
+        if os.path.exists(model_name) : 
             joblib.dump(db, model_name)
             print(f"{model_name} exported !")
 
@@ -106,14 +105,24 @@ def train_model(X_train:pd.DataFrame, hyperparam:dict, model_name:str = "DBSCAN"
 
         # save cluster
         cluster_geojson = "./cluster_points.geojson"
-        if not os.path.exists(cluster_geojson) : 
+        if os.path.exists(cluster_geojson) : 
             cluster_gdf.to_file(cluster_geojson)
             print(f"{cluster_geojson} exported !")
 
         else : 
             print(f"{cluster_geojson} exists !")
 
-        return cluster_gdf, sil_score
+        return cluster, cluster_gdf, sil_score
+
+
+def plot_clusters(cluster) :
+    """plot clusters
+    """
+
+    plt.figure(figsize=(9,9))
+    plt.scatter(cluster["long"], cluster["lat"], c=cluster["cluster"])
+    plt.show()
+
 
 def stack_cluster(cluster_gdf, cluster_idx) :
     """ organize cluster geometry
@@ -128,7 +137,8 @@ def stack_cluster(cluster_gdf, cluster_idx) :
         mask_cluster = cluster_gdf["cluster"] == cluster_idx
         cluster_group_gdf = cluster_gdf[mask_cluster]
 
-        if cluster_group_gdf.shape[0] > 10 :
+        # cluster_group_gdf.shape[0] > 10
+        if  cluster_idx!=-1:
             # new cluster
             df_cluster = pd.DataFrame([cluster_idx], columns=["cluster_index"])
 
@@ -137,6 +147,7 @@ def stack_cluster(cluster_gdf, cluster_idx) :
             poly = geometry.Polygon([[p.x, p.y] for p in list_geometry])
 
             # take polygons cover
+            # cluster_cover = poly
             cluster_cover = poly.convex_hull
 
             # covert to gdf
@@ -144,15 +155,18 @@ def stack_cluster(cluster_gdf, cluster_idx) :
             cluster_cover_gdf = gpd.GeoDataFrame(df_cluster, geometry=df_cluster["geometry"], crs="epsg:4326")
             #display(cluster_cover_gdf)
 
+            # saved
+            cluster_cover_gdf.to_file(f"./clusters/cluster_polygons_{str(cluster_idx)}.geojson")
             # add
             cluster_gdf_list.append(cluster_cover_gdf)
 
     # merge geodataframe
     clusters_all_gdf = pd.concat(cluster_gdf_list, axis=0)
     clusters_all_gdf = clusters_all_gdf.reset_index(drop=True)
-    print(clusters_all_gdf)
+    print(clusters_all_gdf.shape)
 
-    clusters_all_gdf[:20].to_file("./cluster_polygons.geojson")
+    # save all as cluster_polygons
+    clusters_all_gdf.to_file("./cluster_polygons.geojson")
 
 if __name__ == "__main__" :
     # load dataset
@@ -166,14 +180,19 @@ if __name__ == "__main__" :
     model_name = "DBSCAN"
     hyperparam = {
         "eps" : 0.01, 
-        "min_samples" : 5, 
-        "metric" : "manhattan"
+        "min_samples" : 3, 
+        "metric" : "euclidean"
     }
-    cluster, sil_score = train_model(accidents_df, hyperparam, model_name)
+    cluster, cluster_gdf, sil_score = train_model(accidents_df, hyperparam, model_name)
+
+    # plot cluster
+    mask_little = cluster["cluster"].isin([-1, 0, 1, 2, 4, 5, 6, 8, 12, 15])
+    df_mask = cluster[~mask_little]
+    plot_clusters(cluster)
 
     # stack cluster
     cluster_idx = 22
-    stack_cluster(cluster, cluster_idx)
+    stack_cluster(cluster_gdf, cluster_idx)
     
 
 
