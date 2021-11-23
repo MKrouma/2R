@@ -9,3 +9,5 @@ link : https://www.kaggle.com/makdvd/us-traffic-fatality-exploratory-data-analys
 link : https://towardsdatascience.com/car-crashes-and-the-weather-an-exploratory-analysis-of-environmental-conditions-impact-on-traffic-12bcb7f9afed
 
 
+# DBSCAN TUNING
+link : https://stats.stackexchange.com/questions/88872/a-routine-to-choose-eps-and-minpts-for-dbscan
