@@ -25,14 +25,27 @@ route = client.directions(
 )
 
 # get clusters
-
+cluster_polygons_file = "../model/model_cluster/cluster_polygons.geojson"
+gdf_cluster = gpd.read_file(cluster_polygons_file)
 
 # localisation Paris
 m = folium.Map(location=[48.862, 2.346], tiles='cartodbpositron', zoom_start=13)
 folium.PolyLine(locations=[list(reversed(coord)) 
                            for coord in 
                            route['features'][0]['geometry']['coordinates']]).add_to(m)
-    
+
+# cluster on map
+gdf = gdf_cluster
+for _, r in gdf.iterrows():
+    # Without simplifying the representation of each borough,
+    # the map might not be displayed
+    sim_geo = gpd.GeoSeries(r['geometry']).simplify(tolerance=0.001)
+    geo_j = sim_geo.to_json()
+    geo_j = folium.GeoJson(data=geo_j,
+                           style_function=lambda x: {'fillColor': '#ff0000'})
+    folium.Popup(r['cluster_index']).add_to(geo_j)
+    geo_j.add_to(m)
+
 m.save("./templates/map.html")
 
 

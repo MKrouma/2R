@@ -22,3 +22,5 @@ link : https://github.com/gboeing/data-visualization/blob/main/location-history/
 # ML IN PRODUCTION
 link : https://mlinproduction.com/software-interfaces-for-machine-learning-deployment-deployment-series-02/
 
+## CUSTOMIZE FOLIUM GEOJSON LAYER
+link : https://stackoverflow.com/questions/64401943/custom-fillcolor-in-folium
