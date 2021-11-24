@@ -24,3 +24,6 @@ link : https://mlinproduction.com/software-interfaces-for-machine-learning-deplo
 
 ## CUSTOMIZE FOLIUM GEOJSON LAYER
 link : https://stackoverflow.com/questions/64401943/custom-fillcolor-in-folium
+
+## FOLIUM STYLE
+link : https://leafletjs.com/reference-1.6.0.html#polyline-option
