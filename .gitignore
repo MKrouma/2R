@@ -1,5 +1,6 @@
 env/
 ds/data
+prod/model/model_cluster
 
 */.ipynb_checkpoints
 */*/.ipynb_checkpoints
