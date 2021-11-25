@@ -11,7 +11,7 @@ def home():
     """
     home page
     """
-    return render_template('index.html')
+    return render_template('Newscreen09.html')
 
 
 if __name__ == "__main__":

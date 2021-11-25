@@ -22,4 +22,4 @@ jobs:
         pip install -r requirements.txt
     - name: Mypy
       run: |
-        mypy @type_files.txt
+        mypy @mypy_test.txt
