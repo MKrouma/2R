@@ -12,3 +12,10 @@ link : https://dribbble.com/shots/14365239-Dunked
 
 # sigma design template 
 link : https://www.figma.com/file/92Ri5gqxAGOBVaX2YX3c3Y/Build-it-in-Figma%3A-Design-Systems-%E2%80%94%C2%A0Components-Continued...-(Community)?node-id=10%3A0
+
+# test in html
+solution : <input type="text" id="name" name="name" required
+            minlength="4" maxlength="50" size="40">
+
+# flask multiple pages 
+link : https://stackoverflow.com/questions/25366671/jinja2-render-multiple-html-files
