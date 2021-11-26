@@ -1,5 +1,9 @@
 env/
 ds/data
+ds
+dev
+da
+doc
 
 */.ipynb_checkpoints
 */*/.ipynb_checkpoints
