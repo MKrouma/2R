@@ -30,9 +30,15 @@ def geomap():
     # run(address_from, address_to, log=False)
     return render_template('index.html')
 
-@app.route('/geofencing')
+@app.route('/geofencing', methods=['GET','POST'])
 def geofencing():
-    return render_template('geofencing.html')
+
+    if request.method == 'POST':
+        address_from = request.form.get('from')
+        address_to = request.form.get('to')
+        #run(address_from, address_to, log=False)
+        return render_template('geofencing.html')
+    return render_template('index.html')
 
 
 if __name__ == "__main__":

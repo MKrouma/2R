@@ -323,15 +323,9 @@ def run(addr_from, addr_to, log=False) :
         print("done - whoops !")
 
 
-# if __name__ == "__main__" :
-#     pass
+if __name__ == "__main__" :
     address_from = "55 Rue du Faubourg Saint-Honoré, 75008 Paris"
     address_to = "12 Rue Olivier Métra, 75020 Paris"
     run(address_from, address_to, log=True)
 
-    # coordinates = addresses_to_coords(address_from, address_to)
-    # display(coordinates)
-
-    # user_line_gdf, user_line_coords = coords_to_geodataframe(coordinates)
-    # display(user_line_gdf.sample(2))
 
