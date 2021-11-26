@@ -4,6 +4,7 @@ ds/
 dev/
 da/
 doc/
+db/
 
 */.ipynb_checkpoints
 */*/.ipynb_checkpoints
