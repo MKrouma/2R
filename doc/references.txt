@@ -19,3 +19,7 @@ solution : <input type="text" id="name" name="name" required
 
 # flask multiple pages 
 link : https://stackoverflow.com/questions/25366671/jinja2-render-multiple-html-files
+
+# timesampgeojson
+link : https://stackoverflow.com/questions/60044777/folium-plugins-timestampedgeojson-time-not-avaliable
+
