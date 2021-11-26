@@ -1,0 +1,32 @@
+# ACADEMIC
+link : https://www.tandfonline.com/doi/full/10.1080/23311916.2020.1834659
+
+
+# DATA VISUALIZATION
+link : https://omdena.com/blog/advanced-eda/
+link : https://medium.com/@rawanme/u-k-traffic-accidents-data-analysis-10-years-c81293180ee5
+link : https://www.kaggle.com/makdvd/us-traffic-fatality-exploratory-data-analysis
+link : https://towardsdatascience.com/car-crashes-and-the-weather-an-exploratory-analysis-of-environmental-conditions-impact-on-traffic-12bcb7f9afed
+
+
+# DBSCAN TUNING
+link : https://stats.stackexchange.com/questions/88872/a-routine-to-choose-eps-and-minpts-for-dbscan
+
+# UK ACCIDENTS
+link : https://github.com/joaofig/uk-accidents/blob/master/ShowHotSpots.py
+
+# DBSCAN HYPERPARAM
+link : https://geoffboeing.com/2014/08/clustering-to-reduce-spatial-data-set-size/
+link : https://github.com/gboeing/data-visualization/blob/main/location-history/visualize-location-history.ipynb
+
+# ML IN PRODUCTION
+link : https://mlinproduction.com/software-interfaces-for-machine-learning-deployment-deployment-series-02/
+
+## CUSTOMIZE FOLIUM GEOJSON LAYER
+link : https://stackoverflow.com/questions/64401943/custom-fillcolor-in-folium
+
+## FOLIUM STYLE
+link : https://leafletjs.com/reference-1.6.0.html#polyline-option
+
+# DESIGN INSPIRATION 
+link : https://dribbble.com/shots/14541261-Interactive-mapping

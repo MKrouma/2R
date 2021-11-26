@@ -1,10 +1,5 @@
 env/
 ds/data
-ds/
-dev/
-da/
-doc/
-db/
 __pycache__/
 
 */.ipynb_checkpoints
