@@ -27,3 +27,6 @@ link : https://stackoverflow.com/questions/64401943/custom-fillcolor-in-folium
 
 ## FOLIUM STYLE
 link : https://leafletjs.com/reference-1.6.0.html#polyline-option
+
+# DESIGN INSPIRATION 
+link : https://dribbble.com/shots/14541261-Interactive-mapping
