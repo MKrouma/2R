@@ -67,6 +67,12 @@ ls
 du
 ```
 
+restart if builds limit
+```csharp-interactive
+heroku plugins:install heroku-builds
+heroku builds:cancel
+heroku restart
+```
 
 
  
