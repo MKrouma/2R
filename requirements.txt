@@ -48,7 +48,9 @@ fsspec==2021.11.0
 ftfy==6.0.3
 funcy==1.16
 future==0.18.2
+geographiclib==1.52
 geopandas==0.10.2
+geopy==2.2.0
 gitdb==4.0.9
 GitPython==3.1.24
 gpxpy==1.5.0
@@ -59,6 +61,7 @@ idna==3.3
 importlib-metadata==4.8.2
 importlib-resources==5.4.0
 ipykernel==6.5.1
+ipynb-py-convert==0.4.6
 ipython==7.29.0
 ipython-genutils==0.2.0
 isort==5.10.1
