@@ -58,6 +58,15 @@ You have to :
 - Model : refactor, train, test, deploy, predict
 ![Webapp tree](./doc/images/webapp-tree.png)
 
+## Deployment 
+```csharp-interactive
+heroku login 
+git push heroku master
+heroku run bash
+ls
+du
+```
+
 
 
  
