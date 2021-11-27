@@ -1,0 +1,344 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "mq";
+
+$font_type0: 600 64px/1.2 "Work Sans", Helvetica, Arial, serif;
+$font_type1: 300 18px/1.399999976158142 "Roboto", Helvetica, Arial, serif;
+$font_type2: 600 1em/1.2 "Work Sans", Helvetica, Arial, serif;
+$font_type3: 600 0.3125em/1.2 "Work Sans", Helvetica, Arial, serif;
+$font_type4: 300 0.3125em/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type5: 16px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type6: 12px/1.2 "Roboto", Helvetica, Arial, serif;
+$font_type7: 20px/1.2 "Roboto", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(15, 15, 45);
+$font_color_type1: #0f0f2dff;
+$font_color_type2: rgb(0, 0, 0);
+$font_color_type3: rgb(243, 243, 243);
+$font_color_type4: rgb(52, 52, 52);
+
+$background_type0: var(--src) center center / contain no-repeat;
+
+$border_radius_type0: 26px 26px 26px 26px;
+
+.lastdesign- {
+  &group {
+    display: flex;
+    background: var(--src) center center / cover no-repeat;
+    background-color: rgb(255, 255, 255);
+  }
+  &group.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 1024px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &flex {
+    display: flex;
+    flex-direction: column;
+  }
+  &flex.layout3 {
+    position: relative;
+    overflow: visible;
+    width: 628px;
+    min-width: 628px;
+    margin: 38px auto;
+  }
+  &hero-title {
+    font: $font_type0;
+    color: $font_color_type0;
+    letter-spacing: -1.28px;
+  }
+  &hero-title.layout {
+    position: relative;
+    margin: 0px 44px;
+  }
+  &highlights-box {
+    display: flex;
+    justify-content: center;
+  }
+  &highlights-box.layout {
+    position: relative;
+    margin: 21px 11px 0px 0px;
+  }
+  &highlights {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type1;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &hero-title1-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &hero-title1-box.layout {
+    position: relative;
+    margin: 32px 54px 0px 44px;
+  }
+  &hero-title1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font: $font_type0;
+    color: $font_color_type0;
+    text-align: center;
+    letter-spacing: -1.28px;
+    white-space: pre-wrap;
+  }
+  &hero-title1-span0 {
+    font: $font_type2;
+    color: $font_color_type1;
+    letter-spacing: -1.28px;
+  }
+  &hero-title1-span1 {
+    font: $font_type3;
+    color: $font_color_type1;
+    letter-spacing: -0.4px;
+  }
+  &hero-title1-span2 {
+    font: $font_type4;
+    color: $font_color_type1;
+    letter-spacing: -0.4px;
+  }
+  &line {
+    background: $background_type0;
+  }
+  &line.layout {
+    position: relative;
+    height: 1.13px;
+    margin: 26px 134px 0px 129px;
+  }
+  &group1 {
+    display: flex;
+    border: 1px solid rgb(124, 98, 255);
+    border-radius: 5px 5px 5px 5px;
+  }
+  &group1.layout {
+    position: relative;
+    overflow: visible;
+    margin: 54.87px 5px 0px 44px;
+  }
+  &flex.layout2 {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 23px 18px;
+  }
+  &flex2 {
+    display: flex;
+  }
+  &flex2.layout {
+    position: relative;
+    overflow: visible;
+    margin: 0px;
+  }
+  &img {
+    background: $background_type0;
+  }
+  &img.layout {
+    position: relative;
+    flex: 0 1 2px;
+    height: 40px;
+    width: 2px;
+    min-width: 2px;
+    margin: 9px 0px 0px;
+  }
+  &flex2-col {
+    display: flex;
+    flex: 0 1 537px;
+  }
+  &flex.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &flex4 {
+    display: flex;
+  }
+  &flex4.layout {
+    position: relative;
+    overflow: visible;
+    margin: 0px;
+  }
+  &img.layout1 {
+    position: relative;
+    flex: 0 1 2px;
+    height: 1px;
+    width: 2px;
+    min-width: 2px;
+    margin: 9px 0px 10px;
+  }
+  &flex4-spacer {
+    display: flex;
+    flex: 0 1 4px;
+  }
+  &highlights1 {
+    display: flex;
+    align-items: center;
+    font: $font_type5;
+    color: $font_color_type2;
+    letter-spacing: 0px;
+  }
+  &highlights1.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex4-col {
+    display: flex;
+    flex: 0 1 479px;
+  }
+  &line.layout1 {
+    position: relative;
+    height: 1px;
+    flex-grow: 1;
+    margin: 9px 0px 10px;
+  }
+  &small-text-body {
+    display: flex;
+    align-items: center;
+    font: $font_type6;
+    color: $font_color_type2;
+    letter-spacing: 0px;
+    opacity: 0.30000001192092896;
+  }
+  &small-text-body.layout {
+    position: relative;
+    margin: 2px 6px 0px;
+  }
+  &line.layout2 {
+    position: relative;
+    height: 1px;
+    margin: 11px 0px 0px;
+  }
+  &flex5 {
+    display: flex;
+  }
+  &flex5.layout {
+    position: relative;
+    overflow: visible;
+    margin: 38px 0px 25px;
+  }
+  &flex5-col {
+    display: flex;
+    flex: 0 1 537px;
+  }
+  &flex7 {
+    display: flex;
+  }
+  &flex7.layout {
+    position: relative;
+    overflow: visible;
+    margin: 0px;
+  }
+  &img.layout4 {
+    position: relative;
+    flex: 0 1 2px;
+    height: 1px;
+    width: 2px;
+    min-width: 2px;
+    margin: 9px 0px 10px;
+  }
+  &flex7-spacer {
+    display: flex;
+    flex: 0 1 4px;
+  }
+  &highlights2 {
+    display: flex;
+    align-items: center;
+    font: $font_type5;
+    color: $font_color_type2;
+    letter-spacing: 0px;
+  }
+  &highlights2.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex7-col {
+    display: flex;
+    flex: 0 1 477px;
+  }
+  &line.layout3 {
+    position: relative;
+    height: 1px;
+    flex-grow: 1;
+    margin: 9px 0px 10px;
+  }
+  &line.layout4 {
+    position: relative;
+    height: 1px;
+    margin: 11px 0px 0px;
+  }
+  &line.layout5 {
+    position: relative;
+    height: 1.13px;
+    margin: 55px 143px 0px 120px;
+  }
+  &flex8 {
+    display: flex;
+  }
+  &flex8.layout {
+    position: relative;
+    overflow: visible;
+    margin: 54.87px 77px 234px 120px;
+  }
+  &flex8-col {
+    display: flex;
+    flex: 0 1 152px;
+  }
+  &group2 {
+    display: flex;
+    background-color: $font_color_type3;
+    box-shadow: 0px 18px 88px -4px rgba(25, 40, 76, 0.1411764705882353);
+    border-radius: $border_radius_type0;
+  }
+  &group2.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &geoviz {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font: $font_type7;
+    color: $font_color_type4;
+    text-align: right;
+    letter-spacing: 0px;
+  }
+  &geoviz.layout {
+    position: relative;
+    width: 74px;
+    min-width: 74px;
+    margin: 14.5px auto 13.5px;
+  }
+  &flex8-spacer {
+    display: flex;
+    flex: 0 1 127px;
+  }
+  &group3 {
+    display: flex;
+    background-color: $font_color_type3;
+    box-shadow: 0px 18px 88px -4px rgba(25, 40, 76, 0.1411764705882353);
+    border-radius: $border_radius_type0;
+    font: $font_type7;
+    color: $font_color_type4;
+    letter-spacing: 0px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 14.5px 20px 13.5px 20px;
+  }
+  &group3.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    margin: 0px;
+  }
+}

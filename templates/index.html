@@ -21,13 +21,9 @@
     <form action="{{ url_for('geomap') }}" method="POST">
         <div><label>From: <input type="text" name="from"></label></div>
         <div><label>to: <input type="text" name="to"></label></div>
-        <input type="submit" value="geoviz">
+        <input type="submit" name="action" value="geoviz">
+        <input type="submit" name="action" value="geofencing">
     </form>
 
-    <form action="{{ url_for('geofencing') }}" method="POST">
-        <input type="submit" value="geofencing">
-    </form>
-
-    <a href="/map">map link</a>
 </body>
 </html>
