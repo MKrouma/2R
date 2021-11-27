@@ -127,7 +127,7 @@ def plot_geosignale(user_line_coords, cluster_on_route, gdf_cluster, config) :
     tile = config["tile"]
 
     # init folium map
-    m = folium.Map(location=[c_lat, c_lon], tiles=tile, zoom_start=scale, attr="modia")
+    m = folium.Map(location=[c_lat, c_lon], tiles=tile, zoom_start=scale)
 
     # all cluster on map
     gdf = gdf_cluster.copy()
