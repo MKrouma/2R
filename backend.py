@@ -324,8 +324,9 @@ def run(addr_from, addr_to, log=False) :
 
 
 if __name__ == "__main__" :
-    address_from = "55 Rue du Faubourg Saint-Honoré, 75008 Paris"
-    address_to = "12 Rue Olivier Métra, 75020 Paris"
-    run(address_from, address_to, log=True)
+    pass
+    # address_from = "55 Rue du Faubourg Saint-Honoré, 75008 Paris"
+    # address_to = "12 Rue Olivier Métra, 75020 Paris"
+    # run(address_from, address_to, log=True)
 
 
