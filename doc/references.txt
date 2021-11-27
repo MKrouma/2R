@@ -23,3 +23,10 @@ link : https://stackoverflow.com/questions/25366671/jinja2-render-multiple-html-
 # timesampgeojson
 link : https://stackoverflow.com/questions/60044777/folium-plugins-timestampedgeojson-time-not-avaliable
 
+# dockerize flask app in heroku
+link : https://dev.to/erenaspire7/deploying-a-dockerized-flask-app-to-heroku-5h7j
+
+# css gradient
+link : https://cssgradient.io/
+  background: rgb(34,193,195);
+  background: linear-gradient(50deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);

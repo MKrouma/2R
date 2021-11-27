@@ -1,0 +1,333 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.jedha-group {
+  display: flex;
+  background: rgb(34,193,195);
+  background: linear-gradient(50deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  /* background: var(--src) center center/cover no-repeat;
+  background-color: white;  */
+}
+
+.jedha-group.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 700px;
+  flex-grow: 1;
+  margin: 0px; }
+
+.jedha-flex {
+  display: flex;
+  flex-direction: column; }
+
+.jedha-flex.layout3 {
+  position: relative;
+  overflow: visible;
+  width: 654px;
+  min-width: 654px;
+  margin: 36px auto; }
+
+.jedha-hero-title {
+  display: flex;
+  justify-content: flex-end;
+  font: 600 64px/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2d;
+  text-align: right;
+  letter-spacing: -1.28px; }
+
+.jedha-hero-title.layout {
+  position: relative;
+  margin: 0px 38px; }
+
+.jedha-highlights-box {
+  display: flex;
+  justify-content: center; }
+
+.jedha-highlights-box.layout {
+  position: relative;
+  margin: 15.93px 0px 0px 37px; }
+
+.jedha-highlights {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 300 18px/1.4 "Roboto", Helvetica, Arial, serif;
+  color: #0f0f0f;
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.jedha-hero-title1-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.jedha-hero-title1-box.layout {
+  position: relative;
+  margin: 27.7px 43px 0px 81px; }
+
+.jedha-hero-title1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font: 600 64px/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2d;
+  text-align: center;
+  letter-spacing: -1.28px;
+  white-space: pre-wrap; }
+
+.jedha-hero-title1-span0 {
+  font: 600 1em/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2dff;
+  letter-spacing: -1.28px; }
+
+.jedha-hero-title1-span1 {
+  font: 600 0.3125em/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2dff;
+  letter-spacing: -0.4px; }
+
+.jedha-hero-title1-span2 {
+  font: 300 0.3125em/1.2 "Roboto", Helvetica, Arial, serif;
+  color: #0f0f2dff;
+  letter-spacing: -0.4px; }
+
+.jedha-line {
+  background: var(--src) center center/contain no-repeat; }
+
+.jedha-line.layout {
+  position: relative;
+  height: 1.07px;
+  margin: 24.65px 123px 0px 166px; }
+
+.jedha-group1 {
+  display: flex; }
+
+.jedha-group1.layout {
+  position: relative;
+  overflow: visible;
+  margin: 52.07px 18px 213.39px 57px; }
+
+.jedha-group2 {
+  display: flex;
+  border: 1px solid #7c62ff;
+  border-radius: 5px 5px 5px 5px; }
+
+.jedha-group2.layout {
+  position: relative;
+  overflow: visible;
+  flex-grow: 1;
+  margin: 0px; }
+
+.jedha-flex.layout2 {
+  position: relative;
+  overflow: visible;
+  min-height: 313.38px;
+  width: 543px;
+  min-width: 543px;
+  margin: 23px 18px; }
+
+.jedha-flex2 {
+  display: flex; }
+
+.jedha-flex2.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px; }
+
+.jedha-img {
+  background: var(--src) center center/contain no-repeat; }
+
+.jedha-img.layout {
+  position: relative;
+  flex: 0 1 2px;
+  height: 40px;
+  width: 2px;
+  min-width: 2px;
+  margin: 9px 0px 0px; }
+
+.jedha-flex2-col {
+  display: flex;
+  flex: 0 1 537px; }
+
+.jedha-flex.layout {
+  position: relative;
+  overflow: visible;
+  flex-grow: 1;
+  margin: 0px; }
+
+.jedha-flex4 {
+  display: flex; }
+
+.jedha-flex4.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px; }
+
+.jedha-img.layout1 {
+  position: relative;
+  flex: 0 1 2px;
+  height: 1px;
+  width: 2px;
+  min-width: 2px;
+  margin: 9px 0px 10px; }
+
+.jedha-flex4-spacer {
+  display: flex;
+  flex: 0 1 4px; }
+
+.jedha-highlights1 {
+  display: flex;
+  align-items: center;
+  font: 16px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.jedha-highlights1.layout {
+  position: relative;
+  margin: 0px; }
+
+.jedha-line.layout1 {
+  position: relative;
+  flex: 0 1 479px;
+  height: 1px;
+  width: 479px;
+  min-width: 479px;
+  margin: 9px 0px 10px; }
+
+.jedha-small-text-body {
+  display: flex;
+  align-items: center;
+  font: 12px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px;
+  opacity: 0.30000001192092896; }
+
+.jedha-small-text-body.layout {
+  position: relative;
+  margin: 2px 6px 0px; }
+
+.jedha-line.layout2 {
+  position: relative;
+  height: 1px;
+  margin: 11px 0px 0px; }
+
+.jedha-flex5 {
+  display: flex; }
+
+.jedha-flex5.layout {
+  position: relative;
+  overflow: visible;
+  margin: 38px 0px 177.38px; }
+
+.jedha-flex5-col {
+  display: flex;
+  flex: 0 1 537px; }
+
+.jedha-flex7 {
+  display: flex; }
+
+.jedha-flex7.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px; }
+
+.jedha-img.layout4 {
+  position: relative;
+  flex: 0 1 2px;
+  height: 1px;
+  width: 2px;
+  min-width: 2px;
+  margin: 9px 0px 10px; }
+
+.jedha-flex7-spacer {
+  display: flex;
+  flex: 0 1 4px; }
+
+.jedha-highlights2 {
+  display: flex;
+  align-items: center;
+  font: 16px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.jedha-highlights2.layout {
+  position: relative;
+  margin: 0px; }
+
+.jedha-line.layout3 {
+  position: relative;
+  flex: 0 1 477px;
+  height: 1px;
+  width: 477px;
+  min-width: 477px;
+  margin: 9px 0px 10px; }
+
+.jedha-line.layout4 {
+  position: relative;
+  height: 1px;
+  margin: 11px 0px 0px; }
+
+.jedha-group3 {
+  display: flex;
+  background-color: #f3f3f3;
+  box-shadow: 0px 18px 88px -4px rgba(25, 40, 76, 0.141176);
+  border-radius: 24.65px 24.65px 24.65px 24.65px; }
+
+.jedha-group3.layout {
+  position: absolute;
+  overflow: visible;
+  top: 256.97px;
+  bottom: 53.1px;
+  left: 76px;
+  width: 152px;
+  min-width: 152px; }
+
+.jedha-txt {
+  display: flex;
+  align-items: center;
+  font: 20px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: #343434;
+  letter-spacing: 0px; }
+
+.jedha-txt.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 13.15px 0px 0px 44px; }
+
+.jedha-group4 {
+  display: flex;
+  background-color: #f3f3f3;
+  box-shadow: 0px 18px 88px -4px rgba(25, 40, 76, 0.141176);
+  border-radius: 24.65px 24.65px 24.65px 24.65px; }
+
+.jedha-group4.layout {
+  position: absolute;
+  overflow: visible;
+  top: 256.97px;
+  bottom: 53.1px;
+  width: 152px;
+  min-width: 152px;
+  right: 72px; }
+
+.jedha-txt.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 13.15px 0px 0px 25px; }
+
+.jedha-line.layout5 {
+  position: absolute;
+  top: 0px;
+  height: 0.95px;
+  left: 76px;
+  flex-grow: 1;
+  right: 72px;
+  margin: 207.67px 0px 150.77px; }

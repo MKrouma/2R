@@ -1,0 +1,320 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.lastdesign-group {
+  display: flex;
+  background: var(--src) center center/cover no-repeat;
+  background-color: white; }
+
+.lastdesign-group.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1024px;
+  flex-grow: 1;
+  margin: 0px; }
+
+.lastdesign-flex {
+  display: flex;
+  flex-direction: column; }
+
+.lastdesign-flex.layout3 {
+  position: relative;
+  overflow: visible;
+  width: 628px;
+  min-width: 628px;
+  margin: 38px auto; }
+
+.lastdesign-hero-title {
+  font: 600 64px/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2d;
+  letter-spacing: -1.28px; }
+
+.lastdesign-hero-title.layout {
+  position: relative;
+  margin: 0px 44px; }
+
+.lastdesign-highlights-box {
+  display: flex;
+  justify-content: center; }
+
+.lastdesign-highlights-box.layout {
+  position: relative;
+  margin: 21px 11px 0px 0px; }
+
+.lastdesign-highlights {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 300 18px/1.4 "Roboto", Helvetica, Arial, serif;
+  color: #0f0f0f;
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.lastdesign-hero-title1-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.lastdesign-hero-title1-box.layout {
+  position: relative;
+  margin: 32px 54px 0px 44px; }
+
+.lastdesign-hero-title1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font: 600 64px/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2d;
+  text-align: center;
+  letter-spacing: -1.28px;
+  white-space: pre-wrap; }
+
+.lastdesign-hero-title1-span0 {
+  font: 600 1em/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2dff;
+  letter-spacing: -1.28px; }
+
+.lastdesign-hero-title1-span1 {
+  font: 600 0.3125em/1.2 "Work Sans", Helvetica, Arial, serif;
+  color: #0f0f2dff;
+  letter-spacing: -0.4px; }
+
+.lastdesign-hero-title1-span2 {
+  font: 300 0.3125em/1.2 "Roboto", Helvetica, Arial, serif;
+  color: #0f0f2dff;
+  letter-spacing: -0.4px; }
+
+.lastdesign-line {
+  background: var(--src) center center/contain no-repeat; }
+
+.lastdesign-line.layout {
+  position: relative;
+  height: 1.13px;
+  margin: 26px 134px 0px 129px; }
+
+.lastdesign-group1 {
+  display: flex;
+  border: 1px solid #7c62ff;
+  border-radius: 5px 5px 5px 5px; }
+
+.lastdesign-group1.layout {
+  position: relative;
+  overflow: visible;
+  margin: 54.87px 5px 0px 44px; }
+
+.lastdesign-flex.layout2 {
+  position: relative;
+  overflow: visible;
+  flex-grow: 1;
+  margin: 23px 18px; }
+
+.lastdesign-flex2 {
+  display: flex; }
+
+.lastdesign-flex2.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px; }
+
+.lastdesign-img {
+  background: var(--src) center center/contain no-repeat; }
+
+.lastdesign-img.layout {
+  position: relative;
+  flex: 0 1 2px;
+  height: 40px;
+  width: 2px;
+  min-width: 2px;
+  margin: 9px 0px 0px; }
+
+.lastdesign-flex2-col {
+  display: flex;
+  flex: 0 1 537px; }
+
+.lastdesign-flex.layout {
+  position: relative;
+  overflow: visible;
+  flex-grow: 1;
+  margin: 0px; }
+
+.lastdesign-flex4 {
+  display: flex; }
+
+.lastdesign-flex4.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px; }
+
+.lastdesign-img.layout1 {
+  position: relative;
+  flex: 0 1 2px;
+  height: 1px;
+  width: 2px;
+  min-width: 2px;
+  margin: 9px 0px 10px; }
+
+.lastdesign-flex4-spacer {
+  display: flex;
+  flex: 0 1 4px; }
+
+.lastdesign-highlights1 {
+  display: flex;
+  align-items: center;
+  font: 16px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.lastdesign-highlights1.layout {
+  position: relative;
+  margin: 0px; }
+
+.lastdesign-flex4-col {
+  display: flex;
+  flex: 0 1 479px; }
+
+.lastdesign-line.layout1 {
+  position: relative;
+  height: 1px;
+  flex-grow: 1;
+  margin: 9px 0px 10px; }
+
+.lastdesign-small-text-body {
+  display: flex;
+  align-items: center;
+  font: 12px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px;
+  opacity: 0.30000001192092896; }
+
+.lastdesign-small-text-body.layout {
+  position: relative;
+  margin: 2px 6px 0px; }
+
+.lastdesign-line.layout2 {
+  position: relative;
+  height: 1px;
+  margin: 11px 0px 0px; }
+
+.lastdesign-flex5 {
+  display: flex; }
+
+.lastdesign-flex5.layout {
+  position: relative;
+  overflow: visible;
+  margin: 38px 0px 25px; }
+
+.lastdesign-flex5-col {
+  display: flex;
+  flex: 0 1 537px; }
+
+.lastdesign-flex7 {
+  display: flex; }
+
+.lastdesign-flex7.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px; }
+
+.lastdesign-img.layout4 {
+  position: relative;
+  flex: 0 1 2px;
+  height: 1px;
+  width: 2px;
+  min-width: 2px;
+  margin: 9px 0px 10px; }
+
+.lastdesign-flex7-spacer {
+  display: flex;
+  flex: 0 1 4px; }
+
+.lastdesign-highlights2 {
+  display: flex;
+  align-items: center;
+  font: 16px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px; }
+
+.lastdesign-highlights2.layout {
+  position: relative;
+  margin: 0px; }
+
+.lastdesign-flex7-col {
+  display: flex;
+  flex: 0 1 477px; }
+
+.lastdesign-line.layout3 {
+  position: relative;
+  height: 1px;
+  flex-grow: 1;
+  margin: 9px 0px 10px; }
+
+.lastdesign-line.layout4 {
+  position: relative;
+  height: 1px;
+  margin: 11px 0px 0px; }
+
+.lastdesign-line.layout5 {
+  position: relative;
+  height: 1.13px;
+  margin: 55px 143px 0px 120px; }
+
+.lastdesign-flex8 {
+  display: flex; }
+
+.lastdesign-flex8.layout {
+  position: relative;
+  overflow: visible;
+  margin: 54.87px 77px 234px 120px; }
+
+.lastdesign-flex8-col {
+  display: flex;
+  flex: 0 1 152px; }
+
+.lastdesign-group2 {
+  display: flex;
+  background-color: #f3f3f3;
+  box-shadow: 0px 18px 88px -4px rgba(25, 40, 76, 0.141176);
+  border-radius: 26px 26px 26px 26px; }
+
+.lastdesign-group2.layout {
+  position: relative;
+  overflow: visible;
+  flex-grow: 1;
+  margin: 0px; }
+
+.lastdesign-geoviz {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font: 20px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: #343434;
+  text-align: right;
+  letter-spacing: 0px; }
+
+.lastdesign-geoviz.layout {
+  position: relative;
+  width: 74px;
+  min-width: 74px;
+  margin: 14.5px auto 13.5px; }
+
+.lastdesign-flex8-spacer {
+  display: flex;
+  flex: 0 1 127px; }
+
+.lastdesign-group3 {
+  display: flex;
+  background-color: #f3f3f3;
+  box-shadow: 0px 18px 88px -4px rgba(25, 40, 76, 0.141176);
+  border-radius: 26px 26px 26px 26px;
+  font: 20px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: #343434;
+  letter-spacing: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 14.5px 20px 13.5px 20px; }
+
+.lastdesign-group3.layout {
+  position: relative;
+  overflow: visible;
+  flex-grow: 1;
+  margin: 0px; }

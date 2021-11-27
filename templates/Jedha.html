@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../static/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/Jedha.css" />
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+    ></script>
+  </head>
+
+  <body>
+    <div
+      style="--src:url(/static/assets/c28a59a86b45c9fa26a730429bd07ef0.png)"
+      class="jedha jedha-group layout">
+      <div class="jedha-flex layout3">
+        <h1 class="jedha-hero-title layout">PARIS-PLUS-SÛR</h1>
+        <h4 class="jedha-highlights-box layout">
+          <pre class="jedha-highlights">
+Analyse des zones à riques pour motards 
+(engins à deux roues) dans la belle ville de Paris.</pre
+          >
+        </h4>
+        <h1 class="jedha-hero-title1-box layout">
+          <pre
+            class="jedha-hero-title1"
+          ><span class="jedha-hero-title1-span0">+170</span><span class="jedha-hero-title1-span1"> </span><span class="jedha-hero-title1-span2">zones à risques détectées. </span></pre>
+        </h1>
+        <div
+          style="--src:url(/static/assets/bff4cb14da7b88917a69b4c720520a32.png)"
+          class="jedha-line layout"
+        ></div>
+        <div class="jedha-group1 layout">
+        <form action="{{ url_for('geomap') }}" method="POST">
+          <div class="jedha-group2 layout">
+            <div class="jedha-flex layout2">
+              <div class="jedha-flex2 layout">
+                <div
+                  style="--src:url(/static/assets/c49dcbe45a2328c98ff72c34915215e6.png)"
+                  class="jedha-img layout"
+                ></div>
+                <div class="jedha-flex2-col">
+                  <div class="jedha-flex layout">
+                    <div class="jedha-flex4 layout">
+                      <div
+                        style="--src:url(/static/assets/a2bf66d9c1fca59ab3aa2fb91887f7b8.png)"
+                        class="jedha-img layout1"
+                      ></div>
+                      <div class="jedha-flex4-spacer"></div>
+                      <h5 class="jedha-highlights1 layout">Départ</h5>
+                      <div
+                        style="--src:url(/static/assets/9f55d8dce486f58eaba24259208e12f7.png)"
+                        class="jedha-line layout1"
+                      ></div>
+                    </div>
+                    <div class="lastdesign-small-text-body layout br">
+                      <label><input type="text" name="from" required
+                        minlength="4" maxlength="50" size="75"></label>
+                    </div>
+                    <!-- <div class="jedha-small-text-body layout">
+                      55 Rue du Faubourg Saint-Honoré, 75008 Paris
+                    </div> -->
+                    <div
+                      style="--src:url(/static/assets/33d3f25f7eea28868dcfd97d1c99f646.png)"
+                      class="jedha-line layout2"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  style="--src:url(/static/assets/a5070b36d072c4257bb87d3cf9e143b1.png)"
+                  class="jedha-img layout"
+                ></div>
+              </div>
+              <div class="jedha-flex5 layout">
+                <div
+                  style="--src:url(/static/assets/c49dcbe45a2328c98ff72c34915215e6.png)"
+                  class="jedha-img layout"
+                ></div>
+                <div class="jedha-flex5-col">
+                  <div class="jedha-flex layout">
+                    <div class="jedha-flex7 layout">
+                      <div
+                        style="--src:url(/static/assets/a2bf66d9c1fca59ab3aa2fb91887f7b8.png)"
+                        class="jedha-img layout4"
+                      ></div>
+                      <div class="jedha-flex7-spacer"></div>
+                      <h5 class="jedha-highlights2 layout">Arrivée</h5>
+                      <div
+                        style="--src:url(/static/assets/c1cb7b94a3abb039d7e1382e26e52dec.png)"
+                        class="jedha-line layout3"
+                      ></div>
+                    </div>
+                    <div class="lastdesign-small-text-body layout br">
+                      <label><input type="text" name="to" required
+                        minlength="4" maxlength="50" size="75"></label>
+                    </div>
+                    <!-- <div class="jedha-small-text-body layout">
+                      12 Rue Olivier Métra, 75020 Paris
+                    </div> -->
+                    <div
+                      style="--src:url(/static/assets/33d3f25f7eea28868dcfd97d1c99f646.png)"
+                      class="jedha-line layout4"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  style="--src:url(/static/assets/a5070b36d072c4257bb87d3cf9e143b1.png)"
+                  class="jedha-img layout"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="jedha-group3 layout">
+            <div class="jedha-txt layout">
+              <input type="submit" name="action" value="geoviz" width="48">
+            </div>
+          </div>
+          <div class="jedha-group4 layout">
+            <div class="jedha-txt layout1">
+              <input type="submit" name="action" value="geofencing" width="48">
+            </div>
+          </div>
+          <div
+            style="--src:url(/static/assets/fd683147204e60eecd2169b388b16ba0.png)"
+            class="jedha-line layout5"
+          ></div>
+        </form>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
+  </body>
+</html>
