@@ -93,7 +93,7 @@ def cluster_signale(user_line_gdf, gdf_cluster) :
     return cluster_on_route
 
 
-def map_config(gdf) :
+def map_config(gdf, scale=15) :
 
     # get centroid
     user_route_centroid = gdf.copy().geometry.unary_union.centroid
@@ -103,7 +103,7 @@ def map_config(gdf) :
     c_lat = round(user_route_centroid.y,5)
 
     # map scale
-    scale = 13
+    scale = scale
 
     # tile
     tile = 'cartodbpositron'
@@ -278,7 +278,7 @@ def run(addr_from, addr_to, log=False) :
     user_line_gdf, user_line_coords = coords_to_geodataframe(coordinates)
 
     ## load cluster polygons
-    buffer_in_m = 20
+    buffer_in_m = 10
     cluster_polygons_file = "./model/model_cluster/cluster_polygons.geojson"
     gdf_cluster = load_cluster_polygons(cluster_polygons_file, buffer_in_m)
     
@@ -286,7 +286,8 @@ def run(addr_from, addr_to, log=False) :
     cluster_on_route = cluster_signale(user_line_gdf.copy(), gdf_cluster.copy())
 
     ## set map configurations
-    m_config = map_config(user_line_gdf)
+    scale = 14
+    m_config = map_config(user_line_gdf, scale)
     
     ## plot geo signalization 
     plot_geosignale(user_line_coords, cluster_on_route, gdf_cluster, m_config)
