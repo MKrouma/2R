@@ -171,8 +171,7 @@ def plot_geosignale(user_line_coords, cluster_on_route, gdf_cluster, config) :
                             for coord in user_line_coords],
                             color = '#84dcc6',
                             smooth_factor=0.9,
-                            weight = 1.5
-
+                            weight = 4
     ).add_to(m)
 
     # export map
@@ -205,8 +204,11 @@ def geofencing(user_gdf, cluster_gdf) :
 
 
     # replace gepfencing by In and Out
-    user_gdf["geofence"] = user_gdf["geofence"].replace({True: "In", False: "Out"})
+    user_gdf["geofence"] = user_gdf["geofence"].replace({True: "Out", False: "In"})
 
+    # size
+    user_gdf["track_id"] = user_gdf["geofence"].apply(lambda x : 0.5 if x=="In" else 0.5)
+    display(user_gdf.sample(2))
     return user_gdf, date_range
 
 
@@ -252,6 +254,7 @@ def plot_geofencing(gdf, config, token) :
         lon="lon", 
         color="geofence", 
         animation_frame="time", 
+        # size="track_id",
         size_max=100, 
         zoom=scale, 
         width=1200, 

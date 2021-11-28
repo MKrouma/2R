@@ -33,7 +33,7 @@ def geomap():
         if action == "geofencing" :
             address_from = request.form.get('from')
             address_to = request.form.get('to')
-            #run(address_from, address_to, log=False)
+            run(address_from, address_to, log=False)
             return render_template('geofencing.html')
 
     # address_from = "55 Rue du Faubourg Saint-Honoré, 75008 Paris"
