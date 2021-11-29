@@ -164,7 +164,7 @@ def plot_geosignale(user_line_coords, cluster_on_route, gdf_cluster, config) :
                                 'opacity':1}
         )
         
-        text = f"""Indice cluster: {r['cluster_index']}<br>Nombre d'accidents : {r['n_accidents']}"""
+        text = f"""Indice cluster: {r['cluster_index']}<br>Nombre d'accidents: {r['n_accidents']}"""
         folium.Popup(text, min_width=100, max_width=150).add_to(geo_j)
         geo_j.add_to(m)
         
