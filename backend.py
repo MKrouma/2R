@@ -144,7 +144,8 @@ def plot_geosignale(user_line_coords, cluster_on_route, gdf_cluster, config) :
                                 'stroke':False}
         )
         
-        folium.Popup(r['cluster_index']).add_to(geo_j)
+        text = f"""Nombre d'accidents : {r['n_accidents']}"""
+        folium.Popup(text, min_width=100, max_width=150).add_to(geo_j)
         geo_j.add_to(m)
 
     # cluster intersection map
@@ -163,7 +164,8 @@ def plot_geosignale(user_line_coords, cluster_on_route, gdf_cluster, config) :
                                 'opacity':1}
         )
         
-        folium.Popup(r['cluster_index']).add_to(geo_j)
+        text = f"""Indice cluster: {r['cluster_index']}<br>Nombre d'accidents : {r['n_accidents']}"""
+        folium.Popup(text, min_width=100, max_width=150).add_to(geo_j)
         geo_j.add_to(m)
         
     # add user itinerary polyline
