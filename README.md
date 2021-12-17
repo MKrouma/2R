@@ -74,5 +74,5 @@ heroku builds:cancel
 heroku restart
 ```
 
-
- 
+## Author
+Gabriel, Mamadou, Riadh
